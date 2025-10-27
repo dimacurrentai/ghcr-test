@@ -1,6 +1,9 @@
 name: test-ghcr-12345
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
