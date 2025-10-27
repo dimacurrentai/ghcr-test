@@ -1,10 +1,10 @@
-name: test-ghcr-123
+name: test-ghcr-12345
 
 on:
   workflow_dispatch:
 
 jobs:
-  test-ghcr-123:
+  test-ghcr-12345:
     runs-on: ubuntu-latest
     permissions:
       contents: read
