@@ -26,5 +26,5 @@ jobs:
           context: inner/dir
           push: true
           tags: ghcr.io/${{ github.repository }}:inner
-          cache-from: type=registry,ref=user/app:cache
-          cache-to: type=registry,ref=user/app:cache,mode=max
+          cache-from: type=registry,ref=ghcr.io/${{ github.repository }}:cache
+          cache-to: type=registry,ref=ghcr.io/${{ github.repository }}:cache,mode=max
